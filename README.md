@@ -87,3 +87,22 @@ The below describes which source code the proof of each theorem relies on.
         ./double_cover_index 1.57617 0.09776738685009109 0.000000000001
         ./double_cover_index 1.57626 0.09965195729775445 0.000000000001
         ```
+        
+* **Proposition 4.4**
+The files for these and compilation instructions can be found in the convexity directory.
+After compilation, run the shell scripts.
+To reproduce the results of the paper, run the zsh shell scripts in the convexity directory:
+```
+zsh batch00_10.sh
+zsh batch10_20.sh
+zsh batch20_25.sh
+zsh batch25_30.sh
+zsh batch30_35.sh
+zsh batch35_40r.sh
+zsh batch400_425n.sh
+zsh batch425_450n.sh
+zsh batch450_475n.sh
+zsh batch475_50n.sh
+```
+The shell scripts produce the required parameters.
+
